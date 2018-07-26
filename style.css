@@ -1,0 +1,55 @@
+body { margin: 0;}
+
+
+.kamer {
+  background-image: url(images/achtergrond.svg); 
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 50rem;
+}
+
+
+
+img {
+  position: absolute;
+
+  width: 5rem;
+}
+
+.doos {
+  left: 24rem;
+  bottom: 8.5rem;
+  width: 13rem;
+
+}
+
+.plant {
+left: 25rem;
+bottom: 18rem;
+width: 10rem;
+}
+
+.pot {
+  left: 43.5rem;
+  bottom: 15.5rem;
+  width: 4rem;
+  }
+  
+.schilderij {
+  left: 41.5rem;
+  bottom: 32rem;
+  width: 8rem;
+  }
+    
+.tv {
+  right: 8rem;
+  bottom: 20rem;
+  width: 10rem;
+  }
+  
+  .vaas {
+  left: 36rem;
+  bottom: 30.5rem;
+  width: 3.5rem;
+  }
+
