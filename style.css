@@ -1,14 +1,27 @@
-body { margin: 0;}
+html, body {
+  height: 100%;
+}
 
+body { 
+  margin: 0;
+}
+
+.kamer {
+  height: 100%;
+}
+
+svg {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
 
 
 #Vaas:hover path { 
   fill:#9932CC;
-
-
 }
 
-#Vaas ellipse:hover {
+#Vaas:hover ellipse {
   fill: #4B0082;
 }
 
@@ -16,6 +29,10 @@ body { margin: 0;}
   fill: green;
 }
 
-.cls-47:hover {
+#Kopjes:hover ellipse {
   fill: darkgreen;
 }
+
+
+
+
