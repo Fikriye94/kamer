@@ -1,0 +1,23 @@
+{
+  "name": "kamer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^4.9.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fikriye94/kamer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fikriye94/kamer/issues"
+  },
+  "homepage": "https://github.com/Fikriye94/kamer#readme"
+}
