@@ -45,6 +45,17 @@ svg {
   animation: sway 1s infinite;
 }
 
+#TV:hover {
+  #tvaan {
+    display: block;
+  }
+}
+
+#tvaan {
+  display: none;
+  transform: translate(78.6%, 29.9%);
+}
+
 @keyframes sway {
   0% {
     transform: skew(0deg);
