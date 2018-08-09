@@ -40,6 +40,28 @@ svg {
   fill: darkgreen;
 }
 
+.plant__blaadjes:hover {
+  transform-origin: center;
+  animation: sway 1s infinite;
+}
 
-
-
+@keyframes sway {
+  0% {
+    transform: skew(0deg);
+  }
+  25% {
+    transform: skew(-10deg);
+  }
+  45% {
+    transform: skew(-12deg);
+  }
+  75% {
+    transform: skew(-10deg);
+  }
+  95% {
+    transform: skew(2deg);
+  }
+  100% {
+    transform: skew(0deg);
+  }
+}
