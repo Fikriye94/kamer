@@ -1,0 +1,45 @@
+/**
+ * This SCSS file has to be converted to CSS for the browser.
+ * The following command will output the CSS as css/style.css:
+ * node-sass --watch scss/style.scss --output css --output-style compressed --source-map true
+ */
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+.kamer {
+  height: 100%;
+}
+
+svg {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+#Vaas:hover {
+	ellipse {
+		fill: #4B0082;
+	}
+
+	path {
+		fill:#9932CC;
+	}
+}
+
+#Kopjes:hover path {
+  fill: green;
+}
+
+#Kopjes:hover ellipse {
+  fill: darkgreen;
+}
+
+
+
+
