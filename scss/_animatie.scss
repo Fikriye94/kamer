@@ -1,0 +1,72 @@
+//Vaas
+
+#Vaas:hover {
+	ellipse {
+		fill: #d25b6d;
+	}
+
+	path {
+		fill:#ea95a2;
+	}
+}
+
+//Kopjes
+
+#Kopjes:hover path {
+  fill: #78bf79;
+}
+
+#Kopjes:hover ellipse {
+  fill: #499c4b;
+}
+
+//TV
+
+#TV:hover {
+  #tvaan {
+    display: block;
+  }
+}
+
+#tvaan {
+  display: none;
+  transform: translate(78.6%, 29.9%);
+}
+
+//Plant
+.plant__blaadjes:hover {
+  transform-origin: center;
+  animation: sway 1s infinite;
+}
+
+//Schilderij
+
+#Schilderij:hover {
+  transform-origin: top;
+  animation: swing 1.5s ease-in infinite alternate;
+}
+
+//Vuur
+
+#Vuur {
+  display:none;
+}
+
+#Openhaard:hover {
+  #Vuur{
+    display: block;
+    animation: fire 1.5s forwards;
+  }
+}
+
+//Doos
+
+#Doos {
+  transform: translate(26%, 66%);
+}
+
+#Doos:hover {
+   .bovenkant {
+  animation: up 1.5s forwards;
+  }
+}
